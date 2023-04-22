@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef00deb6-11bb-4962-97c8-421915a2fb98" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/AppTwoTest.java" afterDir="false" />
+    <list default="true" id="ef00deb6-11bb-4962-97c8-421915a2fb98" name="Changes" comment="feat:adicionado testes para os métodos">
+      <change afterPath="$PROJECT_DIR$/src/main/java/AppFour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AppFourTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AppTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AppTwo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +57,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AppTwoTest">
+  <component name="RunManager" selected="JUnit.AppFourTest">
     <configuration name="AppThree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AppThree" />
       <module name="strings-play-1" />
@@ -65,9 +65,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AppTwo" />
+    <configuration name="AppFourTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="strings-play-1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AppFourTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -77,16 +79,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AppThreeTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppThreeTest.makeCapitalFirstLetters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="strings-play-1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AppThreeTest" />
-      <option name="METHOD_NAME" value="makeCapitalFirstLetters" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -102,11 +94,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppFourTest" />
         <item itemvalue="JUnit.AppTwoTest" />
         <item itemvalue="JUnit.AppThreeTest" />
         <item itemvalue="Application.AppThree" />
-        <item itemvalue="JUnit.AppThreeTest.makeCapitalFirstLetters" />
-        <item itemvalue="Application.AppTwo" />
       </list>
     </recent_temporary>
   </component>
@@ -121,7 +112,7 @@
       <workItem from="1681159359993" duration="2106000" />
       <workItem from="1681730110203" duration="1808000" />
       <workItem from="1682169220957" duration="1843000" />
-      <workItem from="1682174531337" duration="864000" />
+      <workItem from="1682174531337" duration="2973000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1682170811966</created>
@@ -130,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682170811966</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat:adicionado testes para os métodos">
+      <created>1682175457662</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682175457662</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +147,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="feat:adicionado testes para os métodos" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:adicionado testes para os métodos" />
   </component>
 </project>
