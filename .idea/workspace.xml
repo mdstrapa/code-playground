@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef00deb6-11bb-4962-97c8-421915a2fb98" name="Changes" comment="feat:adicionado app six">
-      <change afterPath="$PROJECT_DIR$/src/main/java/AppSevenPasswordGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AppSevenPasswordGeneratorTest.java" afterDir="false" />
+    <list default="true" id="ef00deb6-11bb-4962-97c8-421915a2fb98" name="Changes" comment="feat: adicionado app seven password generator">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AppSevenPasswordGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AppSevenPasswordGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AppSevenPasswordGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppSevenPasswordGeneratorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +72,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppSevenPasswordGeneratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="strings-play-1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AppSevenPasswordGeneratorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AppSevenPasswordGeneratorTest.passwordGenerator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="strings-play-1" />
       <option name="PACKAGE_NAME" value="" />
@@ -91,23 +100,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppSixTest.countChar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="strings-play-1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AppSixTest" />
-      <option name="METHOD_NAME" value="countChar" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.AppSevenPasswordGenerator" />
+        <item itemvalue="JUnit.AppSevenPasswordGeneratorTest" />
         <item itemvalue="JUnit.AppSevenPasswordGeneratorTest.passwordGenerator" />
         <item itemvalue="Application.AppSix" />
         <item itemvalue="JUnit.AppSixTest" />
-        <item itemvalue="JUnit.AppSixTest.countChar" />
       </list>
     </recent_temporary>
   </component>
@@ -126,7 +125,8 @@
       <workItem from="1688991755750" duration="2263000" />
       <workItem from="1689252615365" duration="5308000" />
       <workItem from="1689337597496" duration="2247000" />
-      <workItem from="1689596737796" duration="5012000" />
+      <workItem from="1689596737796" duration="5143000" />
+      <workItem from="1689682699235" duration="4276000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1682170811966</created>
@@ -163,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689267502721</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: adicionado app seven password generator">
+      <created>1689623130611</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1689623130611</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +205,7 @@
     <MESSAGE value="feat:adicionado app four" />
     <MESSAGE value="feat:adicionado app five" />
     <MESSAGE value="feat:adicionado app six" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:adicionado app six" />
+    <MESSAGE value="feat: adicionado app seven password generator" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: adicionado app seven password generator" />
   </component>
 </project>
