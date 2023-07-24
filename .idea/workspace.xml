@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef00deb6-11bb-4962-97c8-421915a2fb98" name="Changes" comment="feat: adicionado app seven password generator">
+    <list default="true" id="ef00deb6-11bb-4962-97c8-421915a2fb98" name="Changes" comment="refac: password generator improved">
+      <change afterPath="$PROJECT_DIR$/src/main/java/AppEightNameGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AppEightNameGeneratorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AppSevenPasswordGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AppSevenPasswordGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AppSevenPasswordGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppSevenPasswordGeneratorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +24,16 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GroovyConsoleState">
+    <option name="list">
+      <list>
+        <Entry>
+          <option name="moduleName" value="strings-play-1" />
+          <option name="url" value="file://$APPLICATION_CONFIG_DIR$/consoles/groovy/groovy_console_5.groovy" />
+        </Entry>
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="2OFbcnRpXWFpcjCkxLtB3kGSUyw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -45,7 +55,10 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.4&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -57,7 +70,14 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AppSevenPasswordGenerator">
+  <component name="RunManager" selected="Application.AppEightNameGenerator">
+    <configuration name="AppEightNameGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AppEightNameGenerator" />
+      <module name="strings-play-1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AppSevenPasswordGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AppSevenPasswordGenerator" />
       <module name="strings-play-1" />
@@ -65,9 +85,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppSix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AppSix" />
+    <configuration name="AppEightNameGeneratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="strings-play-1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AppEightNameGeneratorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppEightNameGeneratorTest.generateName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="strings-play-1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AppEightNameGeneratorTest" />
+      <option name="METHOD_NAME" value="generateName" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -81,32 +113,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppSevenPasswordGeneratorTest.passwordGenerator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="strings-play-1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AppSevenPasswordGeneratorTest" />
-      <option name="METHOD_NAME" value="passwordGenerator" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppSixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="strings-play-1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AppSixTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AppSevenPasswordGenerator" />
+        <item itemvalue="Application.AppEightNameGenerator" />
+        <item itemvalue="JUnit.AppEightNameGeneratorTest" />
+        <item itemvalue="JUnit.AppEightNameGeneratorTest.generateName" />
         <item itemvalue="JUnit.AppSevenPasswordGeneratorTest" />
-        <item itemvalue="JUnit.AppSevenPasswordGeneratorTest.passwordGenerator" />
-        <item itemvalue="Application.AppSix" />
-        <item itemvalue="JUnit.AppSixTest" />
+        <item itemvalue="Application.AppSevenPasswordGenerator" />
       </list>
     </recent_temporary>
   </component>
@@ -126,7 +139,9 @@
       <workItem from="1689252615365" duration="5308000" />
       <workItem from="1689337597496" duration="2247000" />
       <workItem from="1689596737796" duration="5143000" />
-      <workItem from="1689682699235" duration="4276000" />
+      <workItem from="1689682699235" duration="4462000" />
+      <workItem from="1689783968812" duration="781000" />
+      <workItem from="1690193525497" duration="6628000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1682170811966</created>
@@ -170,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689623130611</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="refac: password generator improved">
+      <created>1689687174143</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1689687174143</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +228,7 @@
     <MESSAGE value="feat:adicionado app five" />
     <MESSAGE value="feat:adicionado app six" />
     <MESSAGE value="feat: adicionado app seven password generator" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: adicionado app seven password generator" />
+    <MESSAGE value="refac: password generator improved" />
+    <option name="LAST_COMMIT_MESSAGE" value="refac: password generator improved" />
   </component>
 </project>
