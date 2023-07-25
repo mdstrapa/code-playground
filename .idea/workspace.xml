@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef00deb6-11bb-4962-97c8-421915a2fb98" name="Changes" comment="feat: AppEight added">
+    <list default="true" id="ef00deb6-11bb-4962-97c8-421915a2fb98" name="Changes" comment="feat: AppEight finished">
+      <change afterPath="$PROJECT_DIR$/src/main/java/AppNineFibonacciSequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AppEightNameGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AppEightNameGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AppEightNameGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppEightNameGeneratorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -70,7 +69,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AppEightNameGeneratorTest">
+  <component name="RunManager" selected="Application.AppNineFibonacciSequence">
     <configuration name="AppEightNameGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AppEightNameGenerator" />
       <module name="strings-play-1" />
@@ -78,8 +77,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppSevenPasswordGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AppSevenPasswordGenerator" />
+    <configuration name="AppNineFibonacciSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AppNineFibonacciSequence" />
       <module name="strings-play-1" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -115,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AppNineFibonacciSequence" />
         <item itemvalue="JUnit.AppEightNameGeneratorTest" />
         <item itemvalue="Application.AppEightNameGenerator" />
         <item itemvalue="JUnit.AppEightNameGeneratorTest.generateName" />
         <item itemvalue="JUnit.AppSevenPasswordGeneratorTest" />
-        <item itemvalue="Application.AppSevenPasswordGenerator" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +141,7 @@
       <workItem from="1689682699235" duration="4462000" />
       <workItem from="1689783968812" duration="781000" />
       <workItem from="1690193525497" duration="7335000" />
-      <workItem from="1690287792228" duration="579000" />
+      <workItem from="1690287792228" duration="4085000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1682170811966</created>
@@ -200,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690205946019</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat: AppEight finished">
+      <created>1690288394604</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1690288394604</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +244,7 @@
     <MESSAGE value="feat: adicionado app seven password generator" />
     <MESSAGE value="refac: password generator improved" />
     <MESSAGE value="feat: AppEight added" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: AppEight added" />
+    <MESSAGE value="feat: AppEight finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: AppEight finished" />
   </component>
 </project>
