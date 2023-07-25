@@ -48,13 +48,13 @@ public class AppEightNameGenerator {
         secondPartFatherName = secondPartFatherName.replaceFirst(secondPartFatherName.substring(0,1), secondPartFatherName.substring(0,1).toUpperCase());
 
         babyNameList.add(firstPartMotherName + firstPartFatherName.toLowerCase());
-        babyNameList.add(firstPartMotherName + secondPartFatherName);
+        babyNameList.add(firstPartMotherName + secondPartFatherName.toLowerCase());
         babyNameList.add(secondPartMotherName + firstPartFatherName.toLowerCase());
-        babyNameList.add(secondPartMotherName + secondPartFatherName);
+        babyNameList.add(secondPartMotherName + secondPartFatherName.toLowerCase());
         babyNameList.add(firstPartFatherName + firstPartMotherName.toLowerCase());
-        babyNameList.add(firstPartFatherName + secondPartMotherName);
+        babyNameList.add(firstPartFatherName + secondPartMotherName.toLowerCase());
         babyNameList.add(secondPartFatherName + firstPartMotherName.toLowerCase());
-        babyNameList.add(secondPartFatherName + secondPartMotherName);
+        babyNameList.add(secondPartFatherName + secondPartMotherName.toLowerCase());
 
 
         return babyNameList;

@@ -6,18 +6,29 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class AppEightNameGeneratorTest {
 
-    AppEightNameGenerator nameGenerator = new AppEightNameGenerator();
-
     @Test
-    void generateName() {
+    void shoudlGenerateCorrectListNames1() {
         //given
         String motherName = "Jussara";
         String fatherName = "Aloísio";
 
         //when
-        List<String> babyName = nameGenerator.generateName(motherName,fatherName);
+        List<String> babyName = AppEightNameGenerator.generateName(motherName,fatherName);
 
         //then
         assertTrue(babyName.contains("Alosara"));
+    }
+
+    @Test
+    void shoudlGenerateCorrectListNames2() {
+        //given
+        String motherName = "Patrícia";
+        String fatherName = "Roberto";
+
+        //when
+        List<String> babyName = AppEightNameGenerator.generateName(motherName,fatherName);
+
+        //then
+        assertTrue(babyName.contains("Robícia"));
     }
 }
