@@ -10,7 +10,7 @@ class AppTwoTest {
 
         String expectedResult = "aaeeíeo";
 
-        String actualResult = AppTwo.getVowels(originalString);
+        String actualResult = AppTwoSepareteVowelsAndConsoants.getVowels(originalString);
 
         assertEquals(expectedResult,actualResult);
     }
@@ -21,7 +21,7 @@ class AppTwoTest {
 
         String expectedResult = "Prllpd";
 
-        String actualResult = AppTwo.getConsonants(originalString);
+        String actualResult = AppTwoSepareteVowelsAndConsoants.getConsonants(originalString);
 
         assertEquals(expectedResult,actualResult);
     }

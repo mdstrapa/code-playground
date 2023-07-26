@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef00deb6-11bb-4962-97c8-421915a2fb98" name="Changes" comment="feat: AppNine added">
-      <change afterPath="$PROJECT_DIR$/src/test/java/AppNineFibonacciSequenceTest.java" afterDir="false" />
+    <list default="true" id="ef00deb6-11bb-4962-97c8-421915a2fb98" name="Changes" comment="feat: added file to gitignore">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AppOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AppOneWriteCharByChar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +145,8 @@
       <workItem from="1689783968812" duration="781000" />
       <workItem from="1690193525497" duration="7335000" />
       <workItem from="1690287792228" duration="4955000" />
-      <workItem from="1690374741535" duration="741000" />
+      <workItem from="1690374741535" duration="1404000" />
+      <workItem from="1690390283431" duration="1203000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1682170811966</created>
@@ -217,7 +218,21 @@
       <option name="project" value="LOCAL" />
       <updated>1690304432370</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="feat: added a test for app nine">
+      <created>1690375517264</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1690375517264</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat: added file to gitignore">
+      <created>1690375570281</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1690375570281</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,6 +272,8 @@
     <MESSAGE value="feat: AppEight added" />
     <MESSAGE value="feat: AppEight finished" />
     <MESSAGE value="feat: AppNine added" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: AppNine added" />
+    <MESSAGE value="feat: added a test for app nine" />
+    <MESSAGE value="feat: added file to gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: added file to gitignore" />
   </component>
 </project>

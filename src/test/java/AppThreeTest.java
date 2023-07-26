@@ -8,7 +8,7 @@ class AppThreeTest {
 
         String expectedSentence = "The Airplane In Flying Over Europe.";
 
-        String actualSentence = AppThree.makeCapitalFirstLetters(originalSSentence);
+        String actualSentence = AppThreeMakeFirstLetterCapital.makeCapitalFirstLetters(originalSSentence);
 
         assertEquals(expectedSentence,actualSentence);
     }
@@ -19,7 +19,7 @@ class AppThreeTest {
 
         String expectedSentence = "Another City Will Be Built In The Desert.";
 
-        String actualSentence = AppThree.makeCapitalFirstLetters(originalSSentence);
+        String actualSentence = AppThreeMakeFirstLetterCapital.makeCapitalFirstLetters(originalSSentence);
 
         assertEquals(expectedSentence,actualSentence);
     }

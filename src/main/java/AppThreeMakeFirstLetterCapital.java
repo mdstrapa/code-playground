@@ -3,7 +3,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class AppThree {
+public class AppThreeMakeFirstLetterCapital {
 
     public static void main(String[] args) {
         String originalSentence = "i will travel to the beach next summer.";

@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class AppSixTest {
 
 
-    AppSix appSix = new AppSix();
+    AppSixCountChars appSix = new AppSixCountChars();
 
     @Test
     void shouldReturnCorrectCharCount() {

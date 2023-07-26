@@ -1,7 +1,7 @@
 // gets a full name and returns the first letters of each word
 
 
-public class AppFive {
+public class AppFiveGetFirslLettersFromFullName {
 
     public static void main(String[] args) {
 

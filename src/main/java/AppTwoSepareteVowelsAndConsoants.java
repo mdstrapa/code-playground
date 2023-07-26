@@ -1,6 +1,6 @@
 //This example separates the vowels and consonants of a word.
 
-public class AppTwo {
+public class AppTwoSepareteVowelsAndConsoants {
     public static void main(String[] args) {
         String word = "paralelepipedo";
 

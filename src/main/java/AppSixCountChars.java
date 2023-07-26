@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class AppSix {
+public class AppSixCountChars {
 
     public static void main(String[] args) {
         System.out.println("Program begins ==================");

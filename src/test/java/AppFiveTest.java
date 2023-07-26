@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class AppFiveTest {
 
-    AppFive appFive = new AppFive();
+    AppFiveGetFirslLettersFromFullName appFive = new AppFiveGetFirslLettersFromFullName();
 
     @Test
     void should_return_correct_first_letters() {

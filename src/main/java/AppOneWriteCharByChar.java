@@ -1,6 +1,6 @@
 //This example writes a string char by char until it gets the full string.
 
-public class AppOne {
+public class AppOneWriteCharByChar {
     public static void main(String[] args) {
         System.out.println("Start =========================");
 

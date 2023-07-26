@@ -1,6 +1,6 @@
 //turn only the consoants into Capitals
 
-public class AppFour {
+public class AppFourTurnConsoantsIntoCapital {
     public static void main(String[] args) {
 
     }
