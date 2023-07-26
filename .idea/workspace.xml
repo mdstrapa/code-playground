@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef00deb6-11bb-4962-97c8-421915a2fb98" name="Changes" comment="feat: AppEight finished">
-      <change afterPath="$PROJECT_DIR$/src/main/java/AppNineFibonacciSequence.java" afterDir="false" />
+    <list default="true" id="ef00deb6-11bb-4962-97c8-421915a2fb98" name="Changes" comment="feat: AppNine added">
+      <change afterPath="$PROJECT_DIR$/src/test/java/AppNineFibonacciSequenceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -40,27 +40,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.4",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.4&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -69,14 +69,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AppNineFibonacciSequence">
-    <configuration name="AppEightNameGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AppEightNameGenerator" />
-      <module name="strings-play-1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.AppNineFibonacciSequenceTest.shouldReturnCorrectNumberForPossition">
     <configuration name="AppNineFibonacciSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AppNineFibonacciSequence" />
       <module name="strings-play-1" />
@@ -93,32 +86,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppEightNameGeneratorTest.generateName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppNineFibonacciSequenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="strings-play-1" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AppEightNameGeneratorTest" />
-      <option name="METHOD_NAME" value="generateName" />
+      <option name="MAIN_CLASS_NAME" value="AppNineFibonacciSequenceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppNineFibonacciSequenceTest.createFibonacciSequence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="strings-play-1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AppNineFibonacciSequenceTest" />
+      <option name="METHOD_NAME" value="createFibonacciSequence" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppSevenPasswordGeneratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppNineFibonacciSequenceTest.shouldReturnCorrectNumberForPossition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="strings-play-1" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AppSevenPasswordGeneratorTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="AppNineFibonacciSequenceTest" />
+      <option name="METHOD_NAME" value="shouldReturnCorrectNumberForPossition" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppNineFibonacciSequenceTest.shouldReturnCorrectNumberForPossition" />
+        <item itemvalue="JUnit.AppNineFibonacciSequenceTest" />
+        <item itemvalue="JUnit.AppNineFibonacciSequenceTest.createFibonacciSequence" />
         <item itemvalue="Application.AppNineFibonacciSequence" />
         <item itemvalue="JUnit.AppEightNameGeneratorTest" />
-        <item itemvalue="Application.AppEightNameGenerator" />
-        <item itemvalue="JUnit.AppEightNameGeneratorTest.generateName" />
-        <item itemvalue="JUnit.AppSevenPasswordGeneratorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +144,8 @@
       <workItem from="1689682699235" duration="4462000" />
       <workItem from="1689783968812" duration="781000" />
       <workItem from="1690193525497" duration="7335000" />
-      <workItem from="1690287792228" duration="4085000" />
+      <workItem from="1690287792228" duration="4955000" />
+      <workItem from="1690374741535" duration="741000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1682170811966</created>
@@ -206,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690288394604</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="feat: AppNine added">
+      <created>1690304432370</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1690304432370</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +256,7 @@
     <MESSAGE value="refac: password generator improved" />
     <MESSAGE value="feat: AppEight added" />
     <MESSAGE value="feat: AppEight finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: AppEight finished" />
+    <MESSAGE value="feat: AppNine added" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: AppNine added" />
   </component>
 </project>
