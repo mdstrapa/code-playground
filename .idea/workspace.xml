@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef00deb6-11bb-4962-97c8-421915a2fb98" name="Changes" comment="feat: added file to gitignore">
+    <list default="true" id="ef00deb6-11bb-4962-97c8-421915a2fb98" name="Changes" comment="refac: class names refactored">
+      <change afterPath="$PROJECT_DIR$/src/main/java/AppTenExpressionAnaliser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AppOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AppOneWriteCharByChar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -27,6 +27,10 @@
   <component name="GroovyConsoleState">
     <option name="list">
       <list>
+        <Entry>
+          <option name="moduleName" value="strings-play-1" />
+          <option name="url" value="file://$APPLICATION_CONFIG_DIR$/consoles/groovy/groovy_console_7.groovy" />
+        </Entry>
         <Entry>
           <option name="moduleName" value="strings-play-1" />
           <option name="url" value="file://$APPLICATION_CONFIG_DIR$/consoles/groovy/groovy_console_5.groovy" />
@@ -69,7 +73,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AppNineFibonacciSequenceTest.shouldReturnCorrectNumberForPossition">
+  <component name="RunManager" selected="Application.AppTenExpressionAnaliser">
     <configuration name="AppNineFibonacciSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AppNineFibonacciSequence" />
       <module name="strings-play-1" />
@@ -77,30 +81,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppEightNameGeneratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppSevenPasswordGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AppSevenPasswordGenerator" />
       <module name="strings-play-1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AppEightNameGeneratorTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppNineFibonacciSequenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTenExpressionAnaliser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AppTenExpressionAnaliser" />
       <module name="strings-play-1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AppNineFibonacciSequenceTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppNineFibonacciSequenceTest.createFibonacciSequence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="strings-play-1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AppNineFibonacciSequenceTest" />
-      <option name="METHOD_NAME" value="createFibonacciSequence" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -115,13 +105,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppSevenPasswordGeneratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="strings-play-1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AppSevenPasswordGeneratorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AppNineFibonacciSequenceTest.shouldReturnCorrectNumberForPossition" />
-        <item itemvalue="JUnit.AppNineFibonacciSequenceTest" />
-        <item itemvalue="JUnit.AppNineFibonacciSequenceTest.createFibonacciSequence" />
+        <item itemvalue="Application.AppTenExpressionAnaliser" />
+        <item itemvalue="Application.AppSevenPasswordGenerator" />
+        <item itemvalue="JUnit.AppSevenPasswordGeneratorTest" />
         <item itemvalue="Application.AppNineFibonacciSequence" />
-        <item itemvalue="JUnit.AppEightNameGeneratorTest" />
+        <item itemvalue="JUnit.AppNineFibonacciSequenceTest.shouldReturnCorrectNumberForPossition" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +145,7 @@
       <workItem from="1690193525497" duration="7335000" />
       <workItem from="1690287792228" duration="4955000" />
       <workItem from="1690374741535" duration="1404000" />
-      <workItem from="1690390283431" duration="1203000" />
+      <workItem from="1690390283431" duration="10348000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1682170811966</created>
@@ -232,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690375570281</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="refac: class names refactored">
+      <created>1690399492000</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1690399492000</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,6 +280,7 @@
     <MESSAGE value="feat: AppNine added" />
     <MESSAGE value="feat: added a test for app nine" />
     <MESSAGE value="feat: added file to gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: added file to gitignore" />
+    <MESSAGE value="refac: class names refactored" />
+    <option name="LAST_COMMIT_MESSAGE" value="refac: class names refactored" />
   </component>
 </project>
