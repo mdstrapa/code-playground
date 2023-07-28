@@ -14,8 +14,9 @@ public class AppNineFibonacciSequence {
 
         System.out.println();
 
+        List<Long> fibonacciSequence = createFibonacciSequence(listSize);
         System.out.println("The Fibonacci Sequence until position " + listSize + " is:");
-        createFibonacciSequence(listSize).forEach(number -> System.out.print(number + " | "));
+        showFibonacciSequence(fibonacciSequence);
 
         System.out.println();
         System.out.println();
@@ -37,5 +38,22 @@ public class AppNineFibonacciSequence {
         return fibonacciSequence;
     }
 
+    private static void showFibonacciSequence(List<Long> fibonacciSequence){
+        System.out.println();
+        for(int index = 0;index < fibonacciSequence.size();index++){
+            int spaceCount = spaceCount(fibonacciSequence.get(index),index);
+            StringBuilder spacing = new StringBuilder();
+            for(int c = 0;c < spaceCount;c++){
+                spacing.append(" ");
+            }
+            System.out.print(index + spacing.toString());
+        }
+        System.out.println();
+        fibonacciSequence.forEach(number -> System.out.print(number + " | "));
+    }
+
+    private static int spaceCount(Long number, int index){
+        return number.toString().length() + 3 - String.valueOf(index).length();
+    }
 
 }
