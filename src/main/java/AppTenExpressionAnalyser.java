@@ -80,13 +80,37 @@ public class AppTenExpressionAnalyser {
     }
 
     private static String executeOperationList(List<Operation> operationList){
-        for(Operation o:operationList){
+
+        boolean operationExecuted = false;
+        int index = 0;
+
+        while (!operationExecuted){
+            Operation o = operationList.get(index);
             if(o.getOperationType().equals("*")) o.setResult(o.getNumberOne() * o.getNumberTwo());
             else if (o.getOperationType().equals("/")) o.setResult(o.getNumberOne() / o.getNumberTwo());
             else if (o.getOperationType().equals("+")) o.setResult(o.getNumberOne() + o.getNumberTwo());
             else if (o.getOperationType().equals("-")) o.setResult(o.getNumberOne() - o.getNumberTwo());
+            operationExecuted = true;
         }
-        return "";
+
+        StringBuilder expresstionAfterOperation = new StringBuilder();
+
+        for(int i = 0;i< operationList.size();i++) {
+            Operation o = operationList.get(index);
+            if(o.getResult()!=null) {
+                //runs the operation
+                expresstionAfterOperation.append(o.getResult().toString());
+                //and removes the number of the next operation in list
+                //because the number becomes to this operation
+                //check if it's the last operation
+                if(i < operationList.size() - 1){
+                    //operationList.get(i + 1).setNumberOne();
+                }
+            }
+            else expresstionAfterOperation.append(o.getNumberOne()).append(" ").append(o.getOperationType()).append(" ").append(o.getNumberTwo());
+            expresstionAfterOperation.append(" ");
+        }
+        return expresstionAfterOperation.toString().trim();
     }
 
 }

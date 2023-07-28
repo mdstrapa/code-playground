@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef00deb6-11bb-4962-97c8-421915a2fb98" name="Changes" comment="refac: class names refactored">
+    <list default="true" id="ef00deb6-11bb-4962-97c8-421915a2fb98" name="Changes" comment="feat: AppTen started">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AppTenExpressionAnaliser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AppTenExpressionAnalyser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AppTenExpressionAnalyser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AppTenExpressionAnalyser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,12 +22,21 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GroovyConsoleState">
+    <option name="list">
+      <list>
+        <Entry>
+          <option name="moduleName" value="strings-play-1" />
+          <option name="url" value="file://$APPLICATION_CONFIG_DIR$/consoles/groovy/groovy_console_7.groovy" />
+        </Entry>
+        <Entry>
+          <option name="moduleName" value="strings-play-1" />
+          <option name="url" value="file://$APPLICATION_CONFIG_DIR$/consoles/groovy/groovy_console_5.groovy" />
+        </Entry>
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="2OFbcnRpXWFpcjCkxLtB3kGSUyw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -44,13 +53,12 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "AppTen",
-    "last_opened_file_path": "/Users/marcosstrapazon/Documents/Dev/Java/string-lab-1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.4",
     "settings.editor.selected.configurable": "MavenSettings",
@@ -65,7 +73,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AppTenExpressionAnalyser">
+  <component name="RunManager" selected="Application.AppNineFibonacciSequence">
     <configuration name="AppNineFibonacciSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AppNineFibonacciSequence" />
       <module name="strings-play-1" />
@@ -80,9 +88,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTenExpressionAnalyser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTenExpressionAnalyser" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="AppTenExpressionAnalyser" />
       <module name="strings-play-1" />
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -108,10 +121,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AppTenExpressionAnalyser" />
-        <item itemvalue="Application.AppSevenPasswordGenerator" />
-        <item itemvalue="JUnit.AppSevenPasswordGeneratorTest" />
         <item itemvalue="Application.AppNineFibonacciSequence" />
+        <item itemvalue="Application.AppSevenPasswordGenerator" />
+        <item itemvalue="Application.AppTenExpressionAnalyser" />
+        <item itemvalue="JUnit.AppSevenPasswordGeneratorTest" />
         <item itemvalue="JUnit.AppNineFibonacciSequenceTest.shouldReturnCorrectNumberForPossition" />
       </list>
     </recent_temporary>
