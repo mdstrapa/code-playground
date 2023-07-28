@@ -1,9 +1,8 @@
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
-public class AppTenExpressionAnaliser {
+public class AppTenExpressionAnalyser {
 
     public static void main(String[] args) {
         System.out.println("Program start -----------------------");
@@ -22,20 +21,26 @@ public class AppTenExpressionAnaliser {
 
         System.out.println();
 
-        List<Element> elementList = evaluateExpression(expression);
+        List<Element> elementList = createElementList(expression);
 
-        elementList.forEach(element -> System.out.println("Element type " + element.getType() + " and value " + element.getValue()));
+        while(expressionHasPendingOperation(elementList)){
+            List<Operation> operationList = createOperationList(elementList);
+            String expressionAfterOperation = executeOperationList(operationList);
+            elementList = createElementList(expressionAfterOperation);
+        }
 
-        determineOperationOrder(elementList)
-                .forEach(operation -> System.out.println("Operation: '" + operation.getNumberOne() + " " + operation.getOperationType() + " " + operation.getNumberTwo() + "'"));
-
+        /*
+        every time we execute an operation we generate a new expression string
+        that must be re-evaluated submitted to the entire process until it
+        doesn't have pending operations anymore
+         */
 
         System.out.println();
 
         System.out.println("Program end   -----------------------");
     }
 
-    private static List<Element> evaluateExpression(String expression){
+    private static List<Element> createElementList(String expression){
         List<Element> expressionElements = new ArrayList<>();
 
         String[] elementsAux = expression.split(" ");
@@ -49,11 +54,14 @@ public class AppTenExpressionAnaliser {
 
     }
 
-    private static List<Operation> determineOperationOrder(List<Element> elementList){
-        //elementList
-        //        .stream()
-        //        .filter(e -> e.getType().equals(ElementType.OPERATION))
-        //        .forEach(e -> System.out.println("This is an operation  " + e.getValue()));
+    private static boolean expressionHasPendingOperation(List<Element> elementList){
+        for(Element element:elementList){
+            if(element.getValue().matches("[*/+-]")) return true;
+        }
+        return false;
+    }
+
+    private static List<Operation> createOperationList(List<Element> elementList){
 
         List<Operation> operationList = new ArrayList<>();
 
@@ -70,6 +78,17 @@ public class AppTenExpressionAnaliser {
         return operationList;
 
     }
+
+    private static String executeOperationList(List<Operation> operationList){
+        for(Operation o:operationList){
+            if(o.getOperationType().equals("*")) o.setResult(o.getNumberOne() * o.getNumberTwo());
+            else if (o.getOperationType().equals("/")) o.setResult(o.getNumberOne() / o.getNumberTwo());
+            else if (o.getOperationType().equals("+")) o.setResult(o.getNumberOne() + o.getNumberTwo());
+            else if (o.getOperationType().equals("-")) o.setResult(o.getNumberOne() - o.getNumberTwo());
+        }
+        return "";
+    }
+
 }
 
 enum ElementType {
@@ -106,11 +125,20 @@ class Operation{
     private Double numberOne;
     private String operationType;
     private Double numberTwo;
+    private Double result;
 
     public Operation(Double numberOne, String operationType, Double numberTwo) {
         this.numberOne = numberOne;
         this.operationType = operationType;
         this.numberTwo = numberTwo;
+    }
+
+    public Double getResult() {
+        return result;
+    }
+
+    public void setResult(Double result) {
+        this.result = result;
     }
 
     public Double getNumberOne() {
