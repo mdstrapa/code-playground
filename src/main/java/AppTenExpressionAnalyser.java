@@ -25,11 +25,17 @@ public class AppTenExpressionAnalyser {
         doesn't have pending operations anymore
          */
 
-        while (expressionHasPendingOperation(elementList)) {
-            expressionAfterOperation = evaluateElementList(elementList);
+        //first we perform all the high priority operation: times and divided by
+        while (expressionHasPendingOperation(elementList,ElementType.HIGH_PRIORITY_OPERATION)) {
+            expressionAfterOperation = evaluateElementList(elementList,ElementType.HIGH_PRIORITY_OPERATION);
             elementList = createElementList(expressionAfterOperation);
         }
 
+        //then we perform the low priority operation: sum and minus
+        while (expressionHasPendingOperation(elementList,ElementType.LOW_PRIORITY_OPERATION)) {
+            expressionAfterOperation = evaluateElementList(elementList,ElementType.LOW_PRIORITY_OPERATION);
+            elementList = createElementList(expressionAfterOperation);
+        }
 
         System.out.println();
 
@@ -46,8 +52,8 @@ public class AppTenExpressionAnalyser {
         String[] elementsAux = expression.split(" ");
 
         for (int c = 0; c < elementsAux.length; c++) {
-            if (elementsAux[c].matches("[*/+-]"))
-                expressionElements.add(new Element(elementsAux[c], ElementType.OPERATION));
+            if (elementsAux[c].matches("[*/]")) expressionElements.add(new Element(elementsAux[c], ElementType.HIGH_PRIORITY_OPERATION));
+            else if (elementsAux[c].matches("[+-]")) expressionElements.add(new Element(elementsAux[c], ElementType.LOW_PRIORITY_OPERATION));
             else expressionElements.add((new Element(elementsAux[c], ElementType.NUMBER)));
         }
 
@@ -55,14 +61,18 @@ public class AppTenExpressionAnalyser {
 
     }
 
-    private static boolean expressionHasPendingOperation(List<Element> elementList) {
+    private static boolean expressionHasPendingOperation(List<Element> elementList, ElementType operationType) {
         for (Element element : elementList) {
-            if (element.getValue().matches("[*/+-]")) return true;
+            if(operationType == ElementType.HIGH_PRIORITY_OPERATION){
+                if (element.getValue().matches("[*/]")) return true;
+            }else{
+                if (element.getValue().matches("[+-]")) return true;
+            }
         }
         return false;
     }
 
-    private static String evaluateElementList(List<Element> expressionElements) {
+    private static String evaluateElementList(List<Element> expressionElements, ElementType operationType) {
         StringBuilder expressionAfterOperation = new StringBuilder();
         boolean keepSearching = true;
         int index = 0;
@@ -70,7 +80,7 @@ public class AppTenExpressionAnalyser {
 
         while (keepSearching){
 
-            if (expressionElements.get(index).getType().equals(ElementType.OPERATION)) {
+            if (expressionElements.get(index).getType().equals(operationType)) {
 
                 operationResult = performCalculation(expressionElements.get(index - 1).getValue(),expressionElements.get(index + 1).getValue(),expressionElements.get(index).getValue());
 
@@ -86,6 +96,8 @@ public class AppTenExpressionAnalyser {
         for(Element e:expressionElements){
             expressionAfterOperation.append(e.getValue()).append(" ");
         }
+
+        System.out.println(expressionAfterOperation.toString().trim());
 
         return expressionAfterOperation.toString().trim();
     }
@@ -116,7 +128,7 @@ public class AppTenExpressionAnalyser {
 }
 
 enum ElementType {
-    NUMBER,OPERATION
+    NUMBER,HIGH_PRIORITY_OPERATION,LOW_PRIORITY_OPERATION
 }
 
 class Element {
