@@ -7,6 +7,8 @@ public class AppTenExpressionAnalyser {
     public static void main(String[] args) {
         System.out.println("Program start -----------------------");
 
+        String expressionAfterOperation = "";
+
         System.out.println();
 
         Scanner userInput = new Scanner(System.in);
@@ -15,19 +17,7 @@ public class AppTenExpressionAnalyser {
 
         String expression = userInput.nextLine();
 
-        System.out.println();
-
-        System.out.println("The expression you typed is: '" + expression + "'");
-
-        System.out.println();
-
         List<Element> elementList = createElementList(expression);
-
-        while(expressionHasPendingOperation(elementList)){
-            List<Operation> operationList = createOperationList(elementList);
-            String expressionAfterOperation = executeOperationList(operationList);
-            elementList = createElementList(expressionAfterOperation);
-        }
 
         /*
         every time we execute an operation we generate a new expression string
@@ -35,88 +25,98 @@ public class AppTenExpressionAnalyser {
         doesn't have pending operations anymore
          */
 
+        while (expressionHasPendingOperation(elementList)) {
+            expressionAfterOperation = evaluateElementList(elementList);
+            elementList = createElementList(expressionAfterOperation);
+        }
+
+
+        System.out.println();
+
+        System.out.println("The expression result is: " + expressionAfterOperation);
+
         System.out.println();
 
         System.out.println("Program end   -----------------------");
     }
 
-    private static List<Element> createElementList(String expression){
+    private static List<Element> createElementList(String expression) {
         List<Element> expressionElements = new ArrayList<>();
 
         String[] elementsAux = expression.split(" ");
 
-        for(int c=0;c<elementsAux.length;c++){
-            if(elementsAux[c].matches("[*/+-]")) expressionElements.add(new Element(elementsAux[c],ElementType.OPERATION));
-            else expressionElements.add((new Element(elementsAux[c],ElementType.NUMBER)));
+        for (int c = 0; c < elementsAux.length; c++) {
+            if (elementsAux[c].matches("[*/+-]"))
+                expressionElements.add(new Element(elementsAux[c], ElementType.OPERATION));
+            else expressionElements.add((new Element(elementsAux[c], ElementType.NUMBER)));
         }
 
-        return  expressionElements;
+        return expressionElements;
 
     }
 
-    private static boolean expressionHasPendingOperation(List<Element> elementList){
-        for(Element element:elementList){
-            if(element.getValue().matches("[*/+-]")) return true;
+    private static boolean expressionHasPendingOperation(List<Element> elementList) {
+        for (Element element : elementList) {
+            if (element.getValue().matches("[*/+-]")) return true;
         }
         return false;
     }
 
-    private static List<Operation> createOperationList(List<Element> elementList){
+    private static String evaluateElementList(List<Element> expressionElements) {
+        StringBuilder expressionAfterOperation = new StringBuilder();
+        boolean keepSearching = true;
+        int index = 0;
+        Double operationResult = 0.0;
 
-        List<Operation> operationList = new ArrayList<>();
+        while (keepSearching){
 
-        for(int e=0;e<elementList.size();e++){
-            Element element = elementList.get(e);
-            if(element.getType().equals(ElementType.OPERATION))
-                operationList.add(new Operation(
-                        Double.valueOf(elementList.get(e-1).getValue()),
-                        String.valueOf(element.getValue()),
-                        Double.valueOf(elementList.get(e+1).getValue())
-                        ));
+            if (expressionElements.get(index).getType().equals(ElementType.OPERATION)) {
+
+                operationResult = performCalculation(expressionElements.get(index - 1).getValue(),expressionElements.get(index + 1).getValue(),expressionElements.get(index).getValue());
+
+                keepSearching = false;
+
+                updateElementList(expressionElements,index,operationResult);
+
+            }
+
+            index++;
         }
 
-        return operationList;
+        for(Element e:expressionElements){
+            expressionAfterOperation.append(e.getValue()).append(" ");
+        }
 
+        return expressionAfterOperation.toString().trim();
     }
 
-    private static String executeOperationList(List<Operation> operationList){
+    private static Double performCalculation(String elementOne,String elementTwo,String operation){
+        Double numberOne = Double.parseDouble(elementOne);
+        Double numberTwo = Double.parseDouble(elementTwo);
 
-        boolean operationExecuted = false;
-        int index = 0;
+        if (operation.equals("*")) return numberOne * numberTwo;
+        else if (operation.equals("/")) return numberOne / numberTwo;
+        else if (operation.equals("+")) return numberOne + numberTwo;
+        else if (operation.equals("-")) return numberOne - numberTwo;
 
-        while (!operationExecuted){
-            Operation o = operationList.get(index);
-            if(o.getOperationType().equals("*")) o.setResult(o.getNumberOne() * o.getNumberTwo());
-            else if (o.getOperationType().equals("/")) o.setResult(o.getNumberOne() / o.getNumberTwo());
-            else if (o.getOperationType().equals("+")) o.setResult(o.getNumberOne() + o.getNumberTwo());
-            else if (o.getOperationType().equals("-")) o.setResult(o.getNumberOne() - o.getNumberTwo());
-            operationExecuted = true;
-        }
+        return null;
+    }
 
-        StringBuilder expresstionAfterOperation = new StringBuilder();
+    private static void updateElementList(List<Element> elementList, int indexToUpdate, Double operationResult){
+        //updates the current element with the result of the operation
+        elementList.get(indexToUpdate).setType(ElementType.NUMBER);
+        elementList.get(indexToUpdate).setValue(String.valueOf(operationResult));
 
-        for(int i = 0;i< operationList.size();i++) {
-            Operation o = operationList.get(index);
-            if(o.getResult()!=null) {
-                //runs the operation
-                expresstionAfterOperation.append(o.getResult().toString());
-                //and removes the number of the next operation in list
-                //because the number becomes to this operation
-                //check if it's the last operation
-                if(i < operationList.size() - 1){
-                    //operationList.get(i + 1).setNumberOne();
-                }
-            }
-            else expresstionAfterOperation.append(o.getNumberOne()).append(" ").append(o.getOperationType()).append(" ").append(o.getNumberTwo());
-            expresstionAfterOperation.append(" ");
-        }
-        return expresstionAfterOperation.toString().trim();
+        //removes the next element
+        elementList.remove(indexToUpdate + 1);
+        //removes the previous element
+        elementList.remove(indexToUpdate - 1);
     }
 
 }
 
 enum ElementType {
-    NUMBER,VARIABLE,OPERATION
+    NUMBER,OPERATION
 }
 
 class Element {
@@ -142,50 +142,5 @@ class Element {
 
     public void setType(ElementType type) {
         this.type = type;
-    }
-}
-
-class Operation{
-    private Double numberOne;
-    private String operationType;
-    private Double numberTwo;
-    private Double result;
-
-    public Operation(Double numberOne, String operationType, Double numberTwo) {
-        this.numberOne = numberOne;
-        this.operationType = operationType;
-        this.numberTwo = numberTwo;
-    }
-
-    public Double getResult() {
-        return result;
-    }
-
-    public void setResult(Double result) {
-        this.result = result;
-    }
-
-    public Double getNumberOne() {
-        return numberOne;
-    }
-
-    public void setNumberOne(Double numberOne) {
-        this.numberOne = numberOne;
-    }
-
-    public String getOperationType() {
-        return operationType;
-    }
-
-    public void setOperationType(String operationType) {
-        this.operationType = operationType;
-    }
-
-    public Double getNumberTwo() {
-        return numberTwo;
-    }
-
-    public void setNumberTwo(Double numberTwo) {
-        this.numberTwo = numberTwo;
     }
 }
