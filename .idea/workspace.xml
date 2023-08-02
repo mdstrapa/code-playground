@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef00deb6-11bb-4962-97c8-421915a2fb98" name="Changes" comment="feat: gitignore updated">
+    <list default="true" id="ef00deb6-11bb-4962-97c8-421915a2fb98" name="Changes" comment="feat: AppEleven Fatorial Number added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/AppTwelveBubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AppTwelveBubbleSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AppNineFibonacciSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AppNineFibonacciSequence.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,33 +41,37 @@
       </list>
     </option>
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2OFbcnRpXWFpcjCkxLtB3kGSUyw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "FibonacciSequenceIndex",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.4",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.4&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -74,7 +80,14 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AppNineFibonacciSequence">
+  <component name="RunManager" selected="JUnit.AppTwelveBubbleSortTest.shouldSortList">
+    <configuration name="AppElevenFatorialNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AppElevenFatorialNumber" />
+      <module name="strings-play-1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AppNineFibonacciSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AppNineFibonacciSequence" />
       <module name="strings-play-1" />
@@ -82,39 +95,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppEightNameGeneratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTenExpressionAnalyser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AppTenExpressionAnalyser" />
       <module name="strings-play-1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AppEightNameGeneratorTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppNineFibonacciSequenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppElevenFatorialNumberTest.shouldReturnCorrectValueForFatorialNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="strings-play-1" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AppNineFibonacciSequenceTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppNineFibonacciSequenceTest.createFibonacciSequence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="strings-play-1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AppNineFibonacciSequenceTest" />
-      <option name="METHOD_NAME" value="createFibonacciSequence" />
+      <option name="MAIN_CLASS_NAME" value="AppElevenFatorialNumberTest" />
+      <option name="METHOD_NAME" value="shouldReturnCorrectValueForFatorialNumber" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppNineFibonacciSequenceTest.shouldReturnCorrectNumberForPossition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTwelveBubbleSortTest.shouldSortList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="strings-play-1" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AppNineFibonacciSequenceTest" />
-      <option name="METHOD_NAME" value="shouldReturnCorrectNumberForPossition" />
+      <option name="MAIN_CLASS_NAME" value="AppTwelveBubbleSortTest" />
+      <option name="METHOD_NAME" value="shouldSortList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -122,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppTwelveBubbleSortTest.shouldSortList" />
+        <item itemvalue="Application.AppElevenFatorialNumber" />
+        <item itemvalue="JUnit.AppElevenFatorialNumberTest.shouldReturnCorrectValueForFatorialNumber" />
+        <item itemvalue="Application.AppTenExpressionAnalyser" />
         <item itemvalue="Application.AppNineFibonacciSequence" />
-        <item itemvalue="JUnit.AppNineFibonacciSequenceTest.shouldReturnCorrectNumberForPossition" />
-        <item itemvalue="JUnit.AppNineFibonacciSequenceTest" />
-        <item itemvalue="JUnit.AppNineFibonacciSequenceTest.createFibonacciSequence" />
-        <item itemvalue="JUnit.AppEightNameGeneratorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -152,6 +154,9 @@
       <workItem from="1690287792228" duration="4955000" />
       <workItem from="1690374741535" duration="1404000" />
       <workItem from="1690390283431" duration="1203000" />
+      <workItem from="1690893853902" duration="3557000" />
+      <workItem from="1690919538110" duration="2470000" />
+      <workItem from="1690977859211" duration="4694000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1682170811966</created>
@@ -244,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690550211947</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="feat: AppEleven Fatorial Number added">
+      <created>1690898635487</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1690898635487</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,7 +273,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -287,6 +299,7 @@
     <MESSAGE value="feat: added a test for app nine" />
     <MESSAGE value="feat: added file to gitignore" />
     <MESSAGE value="feat: gitignore updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: gitignore updated" />
+    <MESSAGE value="feat: AppEleven Fatorial Number added" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: AppEleven Fatorial Number added" />
   </component>
 </project>
