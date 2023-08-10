@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef00deb6-11bb-4962-97c8-421915a2fb98" name="Changes" comment="feat: AppTwelve - Bubble sort added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/AppThirteenStringPerformance.java" afterDir="false" />
+    <list default="true" id="ef00deb6-11bb-4962-97c8-421915a2fb98" name="Changes" comment="feat: AppThirteenStringPerformance added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/AppFifteenJavaSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AppFifteenJavaSortTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -47,7 +48,7 @@
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "AppThirteenStringPerformance",
+    "git-widget-placeholder": "AppFifteenJavaSort",
     "last_opened_file_path": "C:/Users/marcos_strapazon/IdeaProjects/code-playground",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -69,21 +70,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AppThirteenStringPerformance">
-    <configuration name="AppNineFibonacciSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AppNineFibonacciSequence" />
-      <module name="code-playground" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppSevenPasswordGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AppSevenPasswordGenerator" />
-      <module name="code-playground" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.AppFifteenJavaSortTest">
     <configuration name="AppTenExpressionAnalyser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AppTenExpressionAnalyser" />
       <module name="code-playground" />
@@ -98,36 +85,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTwelveBubbleSortTest.shouldSortList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppFifteenJavaSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code-playground" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AppTwelveBubbleSortTest" />
-      <option name="METHOD_NAME" value="shouldSortList" />
+      <option name="MAIN_CLASS_NAME" value="AppFifteenJavaSortTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppFifteenJavaSortTest.shouldSortNameCorrectly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code-playground" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AppFifteenJavaSortTest" />
+      <option name="METHOD_NAME" value="shouldSortNameCorrectly" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
+    <configuration name="AppFifteenJavaSortTest.shouldSortPersonCorrectly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code-playground" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="code-playground" />
-      <option name="filePath" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AppFifteenJavaSortTest" />
+      <option name="METHOD_NAME" value="shouldSortPersonCorrectly" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppFifteenJavaSortTest" />
+        <item itemvalue="JUnit.AppFifteenJavaSortTest.shouldSortPersonCorrectly" />
+        <item itemvalue="JUnit.AppFifteenJavaSortTest.shouldSortNameCorrectly" />
         <item itemvalue="Application.AppThirteenStringPerformance" />
         <item itemvalue="Application.AppTenExpressionAnalyser" />
-        <item itemvalue="Application.AppNineFibonacciSequence" />
-        <item itemvalue="Application.AppSevenPasswordGenerator" />
-        <item itemvalue="JUnit.AppTwelveBubbleSortTest.shouldSortList" />
       </list>
     </recent_temporary>
   </component>
@@ -158,6 +151,7 @@
       <workItem from="1690977859211" duration="5890000" />
       <workItem from="1690985216818" duration="93000" />
       <workItem from="1691186808745" duration="3255000" />
+      <workItem from="1691628972699" duration="2735000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1682170811966</created>
