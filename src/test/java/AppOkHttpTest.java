@@ -14,7 +14,7 @@ public class AppOkHttpTest {
     @Test
     public void shouldReturnCorrectStatusCode() throws IOException {
         Request request = new Request.Builder()
-                .url("https://www.google.com")
+                .url("https://jira-sw-connector.sicredi.in/api/system/status")
                 .build();
 
         Response response = client.newCall(request).execute();
