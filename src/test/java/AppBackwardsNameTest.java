@@ -7,7 +7,7 @@ class AppBackwardsNameTest {
     AppBackwardsName appBackwardsName = new AppBackwardsName();
 
     @Test
-    void shoulReturnCorrectBackwardName() {
+    void shouldReturnCorrectBackwardName() {
         String originalName = "Marcos Daniel Strapazon";
         String expectedResult = "Nozaparts Leinad Socram";
 
