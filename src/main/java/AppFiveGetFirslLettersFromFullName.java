@@ -7,7 +7,8 @@ public class AppFiveGetFirslLettersFromFullName {
 
     }
 
-    public String returnsFirtsLetters(String originalName){
+    public String returnsFirtsLetters(String originalName) throws WrongParameter {
+        if(originalName.matches("^[0-9]+$")) throw new WrongParameter();
         String[] words = originalName.split(" ");
         String finalResult = "";
         for(String word:words){
@@ -16,4 +17,11 @@ public class AppFiveGetFirslLettersFromFullName {
         return finalResult;
     }
 
+}
+
+
+class WrongParameter extends Exception{
+    public WrongParameter(){
+        super("Wrong parameters");
+    }
 }
