@@ -3,7 +3,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
-public class AppScrambledLetters {
+public class AppFindScrambledWords {
 
     static List<String> originalWordList = new ArrayList<>(List.of("BRAZIL","ITALY","NETHERLANDS","JAPAN","CHILE", "GERMANY"));
     static List<String> wordList = new ArrayList<>();
@@ -11,14 +11,29 @@ public class AppScrambledLetters {
     static int squareSize = 25;
 
     public static void main(String[] args) {
-        System.out.println("Scrambled Words ----------------------------------------------------------");
-        System.out.println();
+        showGreetings();
 
         buildWordList();
 
         defineRowsToWriteWords();
 
         writeBoard();
+    }
+
+    static void showGreetings(){
+        System.out.println("Find Scrambled Words ----------------------------------------------------------");
+        System.out.println();
+        System.out.println("You have to find the following words among the letters board:");
+
+        StringBuilder words = new StringBuilder();
+        originalWordList.forEach(w -> words.append(w).append(" - "));
+        words.replace(words.length() - 3, words.length(), "");
+        System.out.print(words);
+
+        System.out.println();
+        System.out.println();
+        System.out.println("Good luck!!");
+        System.out.println();
     }
 
     static void buildWordList(){
