@@ -9,7 +9,8 @@ public class AppOPLabOne {
 
         msBoy.setSchool(msBoy.new School("Anchieta","Canoas"));
 
-        System.out.println(msBoy.getSchool().getCity());
+        msPerson.scream();
+        msBoy.scream();
 
     }
 }
@@ -33,6 +34,10 @@ class MSPerson {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    public void scream(){
+        System.out.println("AAAAAAAAAAAAAAAAAAAAA");
     }
 }
 
@@ -69,6 +74,11 @@ class MSBoy extends MSMan {
 
     public void setSchool(School school) {
         this.school = school;
+    }
+
+    @Override
+    public void scream() {
+        System.out.println("I am a booooooyyyyyy");
     }
 
     class School {

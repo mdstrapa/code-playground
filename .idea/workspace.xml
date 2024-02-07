@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef00deb6-11bb-4962-97c8-421915a2fb98" name="Changes" comment="feat: AppThirteenStringPerformance added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/AppFifteenJavaSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AppFifteenJavaSortTest.java" afterDir="false" />
+    <list default="true" id="ef00deb6-11bb-4962-97c8-421915a2fb98" name="Changes" comment="feat: AppOPLabOne added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/AppInnerClassLab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AppOPLabOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AppOPLabOne.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -29,6 +31,10 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-21.0.2/Contents/Home/lib/src.zip!/java.base/java/util/AbstractMap.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-21.0.2/Contents/Home/lib/src.zip!/java.base/java/util/HashMap.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -42,23 +48,36 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AppConvertTimeToSeconds.executor": "Run",
+    "Application.AppFindScrambledWords.executor": "Run",
+    "Application.AppInnerClassLab.executor": "Run",
+    "Application.AppOPLabOne.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.AppArrayOperationsTest.executor": "Run",
+    "JUnit.AppConvertTimeToSecondsTest.executor": "Run",
+    "JUnit.AppConvertTimeToSecondsTest.shouldReturnCorrectNumberOfSecondsForGivenElement.executor": "Run",
+    "JUnit.AppFifteenJavaSortTest.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "AppFifteenJavaSort",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/marcos_strapazon/IdeaProjects/code-playground",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.0",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.4",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "settings.editor.selected.configurable": "advanced.settings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -70,59 +89,63 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AppFifteenJavaSortTest">
-    <configuration name="AppTenExpressionAnalyser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AppTenExpressionAnalyser" />
+  <component name="RunManager" selected="Application.AppInnerClassLab">
+    <configuration name="AppConvertTimeToSeconds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AppConvertTimeToSeconds" />
       <module name="code-playground" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppThirteenStringPerformance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AppThirteenStringPerformance" />
+    <configuration name="AppInnerClassLab" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AppInnerClassLab" />
       <module name="code-playground" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppFifteenJavaSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppOPLabOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AppOPLabOne" />
+      <module name="code-playground" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppArrayOperationsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code-playground" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AppFifteenJavaSortTest" />
+      <option name="MAIN_CLASS_NAME" value="AppArrayOperationsTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppFifteenJavaSortTest.shouldSortNameCorrectly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppConvertTimeToSecondsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code-playground" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AppFifteenJavaSortTest" />
-      <option name="METHOD_NAME" value="shouldSortNameCorrectly" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppFifteenJavaSortTest.shouldSortPersonCorrectly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="code-playground" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AppFifteenJavaSortTest" />
-      <option name="METHOD_NAME" value="shouldSortPersonCorrectly" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="AppConvertTimeToSecondsTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AppFifteenJavaSortTest" />
-        <item itemvalue="JUnit.AppFifteenJavaSortTest.shouldSortPersonCorrectly" />
-        <item itemvalue="JUnit.AppFifteenJavaSortTest.shouldSortNameCorrectly" />
-        <item itemvalue="Application.AppThirteenStringPerformance" />
-        <item itemvalue="Application.AppTenExpressionAnalyser" />
+        <item itemvalue="Application.AppInnerClassLab" />
+        <item itemvalue="Application.AppOPLabOne" />
+        <item itemvalue="JUnit.AppArrayOperationsTest" />
+        <item itemvalue="JUnit.AppConvertTimeToSecondsTest" />
+        <item itemvalue="Application.AppConvertTimeToSeconds" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-11.0.22-corretto-11.0.22-f644763e9732-6ddbcd97" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-f644763e9732-a81d5c7c" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -152,6 +175,13 @@
       <workItem from="1690985216818" duration="93000" />
       <workItem from="1691186808745" duration="3255000" />
       <workItem from="1691628972699" duration="2735000" />
+      <workItem from="1705621752893" duration="111000" />
+      <workItem from="1705622207385" duration="207000" />
+      <workItem from="1705622432938" duration="564000" />
+      <workItem from="1706893883053" duration="8953000" />
+      <workItem from="1706928817186" duration="3259000" />
+      <workItem from="1707222308277" duration="3878000" />
+      <workItem from="1707253474889" duration="4983000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1682170811966</created>
@@ -259,7 +289,31 @@
       <option name="project" value="LOCAL" />
       <updated>1690983399660</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="feat: AppConvertTimeToSeconds finished">
+      <option name="closed" value="true" />
+      <created>1706908367538</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1706908367538</updated>
+    </task>
+    <task id="LOCAL-00017" summary="feat: AppArrayOperations added">
+      <option name="closed" value="true" />
+      <created>1706932310080</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1706932310080</updated>
+    </task>
+    <task id="LOCAL-00018" summary="feat: AppOPLabOne added">
+      <option name="closed" value="true" />
+      <created>1707229438973</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1707229438973</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,6 +358,13 @@
     <MESSAGE value="feat: gitignore updated" />
     <MESSAGE value="feat: AppEleven Fatorial Number added" />
     <MESSAGE value="feat: AppTwelve - Bubble sort added" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: AppTwelve - Bubble sort added" />
+    <MESSAGE value="feat: AppConvertTimeToSeconds finished" />
+    <MESSAGE value="feat: AppArrayOperations added" />
+    <MESSAGE value="feat: AppOPLabOne added" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: AppOPLabOne added" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
