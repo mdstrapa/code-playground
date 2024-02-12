@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef00deb6-11bb-4962-97c8-421915a2fb98" name="Changes" comment="feat: AppOPLabOne added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/AppInnerClassLab.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AppFormatStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AppFormatStringsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AppOPLabOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AppOPLabOne.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -35,6 +33,13 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-21.0.2/Contents/Home/lib/src.zip!/java.base/java/util/AbstractMap.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-21.0.2/Contents/Home/lib/src.zip!/java.base/java/util/HashMap.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="$USER_HOME$/.m2/settings-personal.xml" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -57,6 +62,7 @@
     "JUnit.AppConvertTimeToSecondsTest.executor": "Run",
     "JUnit.AppConvertTimeToSecondsTest.shouldReturnCorrectNumberOfSecondsForGivenElement.executor": "Run",
     "JUnit.AppFifteenJavaSortTest.executor": "Run",
+    "JUnit.AppFormatStringsTest.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
@@ -74,10 +80,10 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.4",
-    "settings.editor.selected.configurable": "advanced.settings",
+    "settings.editor.selected.configurable": "project.propCompiler",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -89,16 +95,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AppInnerClassLab">
-    <configuration name="AppConvertTimeToSeconds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AppConvertTimeToSeconds" />
-      <module name="code-playground" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.AppFormatStringsTest">
     <configuration name="AppInnerClassLab" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AppInnerClassLab" />
+      <option name="MAIN_CLASS_NAME" value="AppGetDaysCountTest" />
       <module name="code-playground" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,13 +128,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppFormatStringsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code-playground" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AppFormatStringsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppFormatStringsTest" />
         <item itemvalue="Application.AppInnerClassLab" />
         <item itemvalue="Application.AppOPLabOne" />
         <item itemvalue="JUnit.AppArrayOperationsTest" />
         <item itemvalue="JUnit.AppConvertTimeToSecondsTest" />
-        <item itemvalue="Application.AppConvertTimeToSeconds" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +151,8 @@
     <attachedChunks>
       <set>
         <option value="jdk-11.0.22-corretto-11.0.22-f644763e9732-6ddbcd97" />
-        <option value="jdk-21.0.2-openjdk-21.0.2-f644763e9732-a81d5c7c" />
+        <option value="jdk-20.0.2-corretto-20.0.2.1-f644763e9732-447c96ba" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-322ed176" />
       </set>
     </attachedChunks>
   </component>
