@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef00deb6-11bb-4962-97c8-421915a2fb98" name="Changes" comment="feat: AppOPLabOne added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/AppFormatStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AppFormatStringsTest.java" afterDir="false" />
+    <list default="true" id="ef00deb6-11bb-4962-97c8-421915a2fb98" name="Changes" comment="feat: AppFormatStrings added">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +32,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-21.0.2/Contents/Home/lib/src.zip!/java.base/java/util/AbstractMap.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-21.0.2/Contents/Home/lib/src.zip!/java.base/java/util/HashMap.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -322,7 +324,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707229438973</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="feat: AppFormatStrings added">
+      <option name="closed" value="true" />
+      <created>1707763193632</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1707763193633</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -370,7 +380,8 @@
     <MESSAGE value="feat: AppConvertTimeToSeconds finished" />
     <MESSAGE value="feat: AppArrayOperations added" />
     <MESSAGE value="feat: AppOPLabOne added" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: AppOPLabOne added" />
+    <MESSAGE value="feat: AppFormatStrings added" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: AppFormatStrings added" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
