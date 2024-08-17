@@ -11,9 +11,9 @@ public class AppEightNameGenerator {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Tyep the mother name: ");
+        System.out.print("Type the mother name: ");
         String motherName = scanner.nextLine();
-        System.out.print("Tyep the father name: ");
+        System.out.print("Type the father name: ");
         String fatherName = scanner.nextLine();
 
         generateName(motherName,fatherName).forEach(n -> System.out.println("Baby name: " + n));
