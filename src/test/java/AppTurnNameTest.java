@@ -9,17 +9,17 @@ class AppTurnNameTest {
     @Test
     void should_Turn_Name_Into_NewName() {
         String originalName = "Fabiele";
-        String expectedName = "phabyehlleh";
+        String expectedName = "Phabyelleh";
         String actualName = appTurnName.turnName(originalName);
         assertEquals(expectedName, actualName);
 
         originalName = "Edivaldo";
-        expectedName = "ehdywalldoh";
+        expectedName = "Edywalldoh";
         actualName = appTurnName.turnName(originalName);
         assertEquals(expectedName, actualName);
 
         originalName = "Carolina";
-        expectedName = "karohllyna";
+        expectedName = "Karollynah";
         actualName = appTurnName.turnName(originalName);
         assertEquals(expectedName, actualName);
     }
