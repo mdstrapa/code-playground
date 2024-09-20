@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class AppTurnName {
 
-    public String turnName(String originalName){
+    public ExtravagantName turnName(String originalName){
         StringBuilder newName = new StringBuilder();
 
         String originalNameLowerCase = originalName.toLowerCase();
@@ -42,7 +42,7 @@ public class AppTurnName {
                 case 'v' : newName.append("w");
                     break;
                 case 'c' : {
-                    if (originalNameLowerCase.charAt(i + 1) == 'o') newName.append("k");
+                    if (originalNameLowerCase.charAt(i + 1) == 'o' || originalNameLowerCase.charAt(i + 1) == 'a') newName.append("k");
                     else newName.append("c");
                 }
                     break;
@@ -50,9 +50,15 @@ public class AppTurnName {
             }
         }
 
-        String extravagantName = newName.substring(0, 1).toUpperCase() + newName.substring(1);
+        String newNameCapitalized = newName.substring(0, 1).toUpperCase() + newName.substring(1);
 
-        return !extravagantName.equals(originalName) ? extravagantName : "You don't have an extravagant name!";
+        //TODO: fix the 'exit' case
+        //TODO: change everything to Upper Case so the user can not break the rule
+        //TODO: implement a new rule for the 'n' character. it must be double if it's not the first neither the last character
+        //if the name already has a double n so we don't change anything
+        //TODO: implement an extravagant level so the program can tell how much extravagant the name is
+
+        return new ExtravagantName(!newNameCapitalized.equals(originalName),newNameCapitalized);
     }
 
     public static void main(String[] args) {
@@ -67,7 +73,9 @@ public class AppTurnName {
         String name = scanner.nextLine();
         while (!name.equals("exit")) {
             System.out.println();
-            System.out.println("Your extravagant name is " + appTurnName.turnName(name));
+            ExtravagantName extravagantName = appTurnName.turnName(name);
+            if(extravagantName.isExtravagant()) System.out.println("Your extravagant name is " + extravagantName.getExtravagantName());
+            else System.out.println("You don't have an extravagant name!");
             System.out.println();
             System.out.print("Type your name or EXIT to leave: ");
             name = scanner.nextLine();
@@ -75,5 +83,31 @@ public class AppTurnName {
         System.out.println("------------------------------------------------------------------");
     }
 
+}
 
+
+class ExtravagantName {
+    boolean isExtravagant;
+    String extravagantName;
+
+    public ExtravagantName(boolean isExtravagant, String extravagantName) {
+        this.isExtravagant = isExtravagant;
+        this.extravagantName = extravagantName;
+    }
+
+    public boolean isExtravagant() {
+        return isExtravagant;
+    }
+
+    public void setExtravagant(boolean extravagant) {
+        isExtravagant = extravagant;
+    }
+
+    public String getExtravagantName() {
+        return extravagantName;
+    }
+
+    public void setExtravagantName(String extravagantName) {
+        this.extravagantName = extravagantName;
+    }
 }
